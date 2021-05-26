@@ -46,9 +46,12 @@ body {
 }
 
 .container-en {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-between;
     bottom: 0;
-
 }
+
 
 .span-en {
     color: white;
@@ -496,10 +499,11 @@ header h5 {
     color: #406044;
 }
 
-.main-container-review{
+.main-container-review {
     display: flex;
     justify-content: flex-end;
 }
+
 .main-review-p {
     font-family: 'Arno Pro';
     font-style: normal;
@@ -520,22 +524,102 @@ header h5 {
     padding-top: 20px;
 }
 
-.img-main-stars-1{
+.img-main-stars-1 {
     position: absolute;
     top: 240px;
     left: 0;
 }
-.img-main-stars-2{
+
+.img-main-stars-2 {
     position: absolute;
     top: 266px;
     left: 30px;
 }
 
 /* FOOTER */
-.footer__row{
-    min-height: 314px;
+.footer__row {
     background-image: url('../img/bgr-footer.png');
     background-repeat: no-repeat;
     background-color: #406044;
+    color: #FFFFFF;
+    min-height: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-container-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content-log {
+    max-width: 240px;
+    align-self: center;
+
+}
+
+.footer-subscribe{
+    width: 137px;
+    padding-top: 53px;
+
+}
+
+.footer-subscribe, .ft-subscribe-arrow{
+display: inline-block;
+}
+
+.ft-subscribe-arrow{
+padding-left: 50px;
+}
+.footer-subscribe-span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.3639px;
+    line-height: 24px;
+    letter-spacing: -0.250417px;
+    color: #FFFFFF;
+}
+.footer-container-contact{
+    display: flex;
+}
+
+.img-badges{
+    padding-right: 10px;
+}
+
+.ft-p{
+    font-family: 'Arno Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.193504px;
+color: #FFFFFF;
+width: 150px;
+}
+
+.ft-p-contacts{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+width: 150px;
+
+}
+
+.ft-container-partner{
+    display: flex;
+}
+
+.img-ft-prt{
+    padding-left: 30px;;
+}
+
+.container-badges{
+    padding-left: 100px;
 }
