@@ -1,0 +1,12 @@
+@media (max-width: 992px){
+    .button{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px){
+    .img-logo{
+        display: none;
+    }
+}
