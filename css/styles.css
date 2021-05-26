@@ -2,13 +2,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* HEADER */
 .header-container {
     background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+}
+
+.hd-arrow {
+    align-self: center;
 }
 
 .header__row_nav {
     align-items: center;
-    padding: 26.4px 28px 56.5px 30px;
+    padding: 26.4px 28px 10px 30px;
 
 }
 
@@ -23,6 +29,11 @@ body {
     text-transform: uppercase;
     padding-left: 2.7em;
     padding-right: 2.7em;
+}
+
+.container-en {
+    bottom: 0;
+
 }
 
 .span-en {
@@ -42,7 +53,7 @@ body {
 
 .header__row_exclusive {
     /* align-items: center; */
-    padding: 56.5px 28px 55px 30px;
+    padding: 103px 28px 55px 30px;
 
 }
 
@@ -109,7 +120,6 @@ header h5 {
     box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
     border-radius: 0px 0px 4px 4px;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    /* margin: 0 5px; */
     padding: 20px 35px;
     color: #FFFFFF;
     text-align: center;
@@ -183,7 +193,54 @@ header h5 {
 
 }
 
-.link-lorem a{
+.link-lorem a {
     color: #FFFFFF;
-   
+}
+
+/* MAIN */
+.main-container {
+    background-image: url('../img/bgr-main1.png');
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.main-container-exclusive {
+    padding-top: 120px;
+    padding-bottom: 110px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.main-h2 {
+    font-family: "Arno Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 96%;
+    /* or 46px */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-p-white{
+    max-width: 400px;
+    font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 33px;
+color: #FFFFFF;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.main-img-container{
+    position: relative;
+}
+
+.img-main-1{
+    position: absolute;
+    top: 320px;
+    left: 220px;
 }
