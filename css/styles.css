@@ -5,6 +5,7 @@ body {
 /* HEADER */
 .header-container {
     background-image: url('../img/background.png');
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -201,18 +202,20 @@ header h5 {
 .main-container {
     background-image: url('../img/bgr-main1.png');
     background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
 .main-container-exclusive {
     padding-top: 120px;
-    padding-bottom: 110px;
+    padding-bottom: 200px;
     padding-left: 40px;
     text-align: left;
 }
 
-.main-h2 {
+.main-h2,
+.main-h2-green {
     font-family: "Arno Pro";
     font-style: normal;
     font-weight: normal;
@@ -223,24 +226,202 @@ header h5 {
     color: #FFFFFF;
 }
 
-.main-p-white{
+.main-p-white,
+.main-p-green {
     max-width: 400px;
     font-family: "Open Sans";
-font-style: normal;
-font-weight: normal;
-font-size: 23px;
-line-height: 33px;
-color: #FFFFFF;
-padding-top: 10px;
-padding-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.main-img-container{
+.main-img-container {
     position: relative;
 }
 
-.img-main-1{
+.img-main-1 {
     position: absolute;
     top: 320px;
     left: 220px;
+}
+
+.main__row_exclusive-2 {
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+.main-container-exclusive-2 {
+    margin-top: 50px;
+    padding-left: 150px;
+}
+
+.main-h2-green {
+    color: #406044;
+
+}
+
+.main-p-green {
+    color: #406044;
+}
+
+.btn-outline-green {
+    color: #406044;
+    border-color: #406044;
+}
+
+.main-img-container-2 {
+    padding-right: 0;
+}
+
+.main-img-content-2 {
+    position: relative;
+    display: flex;
+}
+
+.img-main-3 {
+    margin-left: auto;
+}
+
+.img-main-4 {
+    position: absolute;
+    top: 267px;
+    right: 120px;
+
+}
+
+.img-main-5 {
+    position: absolute;
+    top: 510px;
+    left: 80px;
+
+}
+
+.img-main-6 {
+    position: absolute;
+    top: 540px;
+    left: 110px;
+
+}
+
+.main-img-container-3 {
+    padding: 0;
+}
+
+.main-img-content-3 {
+    display: flex;
+}
+
+.img-main-7 {
+    margin-right: auto;
+}
+
+.main-container-exclusive-3 {
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.main-container-img-3 {
+    display: flex;
+    padding-top: 80px;
+    position: relative;
+}
+
+.img-main-8 {
+    margin-left: auto;
+    /* order: 2; */
+}
+
+.img-main-9 {
+    position: absolute;
+    top: 315px;
+    left: 40px;
+}
+
+.img-main-10 {
+    position: absolute;
+    top: 345px;
+    left: 65px;
+}
+
+.main__row_exclusive-3 {
+    margin-top: 350px;
+    margin-bottom: 120px;
+
+}
+
+.main-container-rooms {
+    position: absolute;
+    top: 10px;
+    left: -350px;
+    width: 385px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(64, 96, 68, 0.67) 0%, rgba(64, 96, 68, 0.3) 100%);
+    box-shadow: inset -5.36111px -5.36111px 268.055px rgba(255, 255, 255, 0.02);
+    border-radius: 4px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    border: 1px solid rgb(255, 255, 255, 0.67);
+    color: #FFFFFF;
+    backdrop-filter: blur(8.57777px);
+
+}
+
+.main-h4 {
+    font-family: 'Arno Pro';
+    text-transform: uppercase;
+}
+
+.main-container-btn {
+    background-image: url('../img/bgr-main2.png');
+    display: flex;
+    padding: 0;
+}
+
+.main-content-btn {
+    background-image: url('../img/main12.png');
+    background-repeat: no-repeat;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    color: #FFFFFF;
+}
+
+.main-h3 {
+    width: 232px;
+    font-family: 'Arno Pro';
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+.main-span-exclusive-4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.btn-outline-brown {
+    background: rgba(174, 133, 81, 0.8);
+    box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+    border: 1px solid rgb(255, 255, 255, 0.67);
+    color: #FFFFFF;
+    margin-top: 287px;
+}
+
+.main-content-btnImg {
+    background-image: url('../img/main13.png');
+
+}
+
+.main-content-btnImg2 {
+    background-image: url('../img/main14.png');
+
 }
