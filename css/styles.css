@@ -469,6 +469,7 @@ header h5 {
 }
 
 .container-stars {
+    position: relative;
     padding: 20px 55px 26px 20px;
     border: 1px solid #406044;
 
@@ -517,4 +518,24 @@ header h5 {
     line-height: 143.5%;
     color: #FFFFFF;
     padding-top: 20px;
+}
+
+.img-main-stars-1{
+    position: absolute;
+    top: 240px;
+    left: 0;
+}
+.img-main-stars-2{
+    position: absolute;
+    top: 266px;
+    left: 30px;
+}
+
+/* FOOTER */
+.footer__row{
+    min-height: 314px;
+    background-image: url('../img/bgr-footer.png');
+    background-repeat: no-repeat;
+    background-color: #406044;
+
 }
